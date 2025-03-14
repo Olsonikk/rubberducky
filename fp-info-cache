@@ -1,4 +1,4 @@
-24735605853036833
+24739089727134725
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -91195,6 +91195,13 @@ rotary encoder illuminated switch vertical
 0
 9
 8
+SMD3225
+Crystal_SMD_3225-4Pin_3.2x2.5mm_HandSoldering
+SMD Crystal SERIES SMD3225/4 http://www.txccrystal.com/images/pdf/7m-accuracy.pdf, hand-soldering, 3.2x2.5mm^2 package
+SMD SMT crystal hand-soldering
+0
+4
+4
 Sensor
 ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/AM2302.pdf
@@ -99511,3 +99518,10 @@ Varistor VF
 0
 2
 2
+usb-c-2.0
+usb-c-2.0-MODULE
+
+
+0
+4
+4
