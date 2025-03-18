@@ -1904,16 +1904,16 @@
 			)
 			(symbol "switch_1_1"
 				(pin bidirectional line
-					(at -5.08 0 0)
+					(at -3.81 0 0)
 					(length 2.54)
-					(name "pin1"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number ""
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1924,14 +1924,14 @@
 				(pin bidirectional line
 					(at 6.35 0 180)
 					(length 2.54)
-					(name "pin2"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number ""
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2353,6 +2353,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 59.69) (xy 123.19 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59a5448c-d1a1-45ed-bf04-bc8cb1396bfa")
+	)
+	(wire
+		(pts
 			(xy 64.77 77.47) (xy 69.85 77.47)
 		)
 		(stroke
@@ -2640,6 +2650,46 @@
 			(type default)
 		)
 		(uuid "f25d46c4-c1bd-4457-81f9-ed9ce061a712")
+	)
+	(label "D+"
+		(at 106.68 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "17abed21-7973-49a8-90d4-dc6762d89f93")
+	)
+	(label "D1-"
+		(at 123.19 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6dd2247d-2fa1-496d-a6af-d64ee9942ae9")
+	)
+	(label "D-"
+		(at 107.95 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8db21903-62c9-41a0-9eb4-09aec5ee4fb9")
+	)
+	(label "D1+"
+		(at 123.19 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "979ae04d-88b8-488a-9bf6-4f25def0e052")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -4624,7 +4674,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SMD3225:Crystal_SMD_3225-4Pin_3.2x2.5mm_HandSoldering"
+		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm_HandSoldering"
 			(at 60.96 69.85 0)
 			(effects
 				(font
@@ -4725,10 +4775,10 @@
 				(hide yes)
 			)
 		)
-		(pin ""
+		(pin "1"
 			(uuid "efa0fb18-43ad-4646-ae8e-726c9eb732eb")
 		)
-		(pin ""
+		(pin "2"
 			(uuid "0d0f3a4d-127d-4700-8c45-5b2e474238ce")
 		)
 		(instances
